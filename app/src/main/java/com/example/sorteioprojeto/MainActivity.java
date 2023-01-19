@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView texto = findViewById(R.id.textoResultado);
         Random random = new Random();
-        int aleatorio = random.nextInt(10);
+        int aleatorio = random.nextInt(11);
         texto.setText("Número: " + aleatorio);
 
 
